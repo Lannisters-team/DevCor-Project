@@ -11,7 +11,7 @@
 			<hr>
 			<security:authorize access="isAnonymous()">
 				<p>Please log in to get started</p>
-				<a class="btn btn-large btn-success" href="login">Log In</a>
+				<a class="btn btn-large btn-success" href="<c:url value="/login"/>">Log In</a>
 			</security:authorize>
 		</div>
 	</div>
